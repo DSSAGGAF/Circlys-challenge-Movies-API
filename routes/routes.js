@@ -51,12 +51,12 @@ router.patch('/book/:id', async (req, res) => {
 
         const movie = await Model.findById(id)
         if (slotId > 6 || slotId < 1) {
-            res.send("Slot id is wrong")
+            res.status(406).send("Slot id is wrong")
         }
         else {
             movieShowtimes = movie.showtimes[arrayIndex]
             if (movieShowtimes.capacity < numOfTickets) {
-                res.send(`Only ${movieShowtimes.capacity} seats avilable!!`)
+                res.status(406).send(`Only ${movieShowtimes.capacity} seats available!!`)
             }
             else {
                 movie.showtimes[arrayIndex].capacity = movieShowtimes.capacity - numOfTickets;
