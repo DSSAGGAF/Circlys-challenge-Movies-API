@@ -10,14 +10,14 @@ Steps to run the project:
 test cases 
 
 1) create movie 
-    <img src="https://prnt.sc/6nk4R4cUWvKk" width="128"/>
+    ![Screenshot](test_cases_pic/1.png)
 2) get movies 
-    <img src="https://prnt.sc/EXILLSdoNSbf" width="128"/>
+    ![Screenshot](test_cases_pic/2.png)
 3) get one movie 
-    <img src="https://prnt.sc/ei93h9ZfLH-1" width="128"/>
+    ![Screenshot](test_cases_pic/3.png)
 4) book movie with available seats 
-    <img src="https://prnt.sc/xXEpPd0ghR1T" width="128"/>
+    ![Screenshot](test_cases_pic/4.png)
 5) book movie with no available seats 
-    <img src="https://prnt.sc/04Xfo7xtiFHj" width="128"/>
+    ![Screenshot](test_cases_pic/5.png)
 6) remove movie
     ![Screenshot](test_cases_pic/6.png)
