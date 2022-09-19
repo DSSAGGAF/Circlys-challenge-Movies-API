@@ -19,5 +19,5 @@ test cases
     <img src="https://prnt.sc/xXEpPd0ghR1T" width="128"/>
 5) book movie with no available seats 
     <img src="https://prnt.sc/04Xfo7xtiFHj" width="128"/>
-5) remove movie
-    <img src="https://prnt.sc/jrzVTilgSCgX" width="128"/>
+6) remove movie
+    ![Screenshot](test_cases_pic/6.png)
